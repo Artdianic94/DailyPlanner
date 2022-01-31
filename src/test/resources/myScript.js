@@ -1,0 +1,2 @@
+function showMessageNew() {
+    alert('Bye');}

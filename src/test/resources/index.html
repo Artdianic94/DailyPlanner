@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>DailyPlanner</title>
+    <script type="text/javascript" src="myScript.js"></script>
+
+</head>
+<body>
+<h1 align="center" id="welcome" class="funny-title section-title">Welcome</h1>
+<br>
+<p align="center" id="hi" class="funny-title section-title">Hi! I'm Diana</p>
+<br>
+<h2 id="header2" class="funny-title section-title">Here is your daily planner</h2>
+<br>
+<div align="center" class="weekdays"><b>Please choose a day of the week</b></div>
+<br>
+<div>
+    <table border="1" id="tableDay" class="week">
+        <tr>
+            <th>Weekday</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+        </tr>
+    </table>
+    <img src="images.jpeg" height="183" width="275" alt="Ooops" class="picture">
+</div>
+<label for="month"></label><select name="month" id="month" class="month">
+    <option>January</option>
+    <option>February</option>
+    <option>March</option>
+    <option>April</option>
+    <option>May</option>
+    <option>June</option>
+    <option>July</option>
+    <option>August</option>
+    <option>September</option>
+    <option>October</option>
+    <option>November</option>
+    <option>December</option>
+</select>
+<form>
+    <h3 class="fontName"><b>Change the font</b></h3>
+    <input type="checkbox"  id="font1" name="vehicle1" value="Bold">
+    <label for="font1" class="font1"><b> Bold</b></label><br>
+    <input type="checkbox" id="font2" name="vehicle2" value="Italic">
+    <label for="font2" class="font2"> Italic</label><br>
+    <input type="checkbox" id="font3" name="vehicle3" value="Underline">
+    <label for="font3" class="font3"> Underline</label>
+</form>
+<a href="http://justnotepad.com/ru/" class="page">Visit justnotepad.com!</a>
+<button type="button" onclick="showMessageNew()" class="gradient-button">Click Me!</button>
+</body>
+</html>
