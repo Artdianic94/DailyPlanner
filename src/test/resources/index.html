@@ -14,7 +14,7 @@
 <br>
 <h2 id="header2" class="funny-title section-title">Here is your daily planner</h2>
 <br>
-<div align="center" class="weekdays"><b>Please choose a day of the week</b></div>
+<div align="center" class="weekdays" id="weekdays"><b>Please choose a day of the week</b></div>
 <br>
 <div>
     <table border="1" id="tableDay" class="week">
@@ -43,23 +43,23 @@
             <td>Sunday</td>
         </tr>
     </table>
-    <img src="images.jpeg" height="183" width="275" alt="Ooops" class="picture">
+    <img src="images.jpeg" height="183" width="275" alt="Ooops" class="picture" id="picture">
 </div>
 <label for="month"></label><select name="month" id="month" class="month">
-    <option>January</option>
-    <option>February</option>
-    <option>March</option>
-    <option>April</option>
-    <option>May</option>
-    <option>June</option>
-    <option>July</option>
-    <option>August</option>
-    <option>September</option>
-    <option>October</option>
-    <option>November</option>
-    <option>December</option>
+    <option value="01">January</option>
+    <option value="02">February</option>
+    <option value="03">March</option>
+    <option value="04">April</option>
+    <option value="05">May</option>
+    <option value="06">June</option>
+    <option value="07">July</option>
+    <option value="08">August</option>
+    <option value="09">September</option>
+    <option value="10">October</option>
+    <option value="11">November</option>
+    <option value="12">December</option>
 </select>
-<form>
+<form id="list">
     <h3 class="fontName"><b>Change the font</b></h3>
     <input type="checkbox"  id="font1" name="vehicle1" value="Bold">
     <label for="font1" class="font1"><b> Bold</b></label><br>
@@ -68,7 +68,7 @@
     <input type="checkbox" id="font3" name="vehicle3" value="Underline">
     <label for="font3" class="font3"> Underline</label>
 </form>
-<a href="http://justnotepad.com/ru/" class="page">Visit justnotepad.com!</a>
-<button type="button" onclick="showMessageNew()" class="gradient-button">Click Me!</button>
+<a href="http://justnotepad.com/ru/" class="page" id="page">Visit justnotepad.com!</a>
+<button type="button" onclick="showMessageNew()" class="gradient-button" id="button">Click Me!</button>
 </body>
 </html>
